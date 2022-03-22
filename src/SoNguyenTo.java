@@ -8,7 +8,7 @@ public class SoNguyenTo {
         int n = 2;
         for (int count = 0; count < numbers; ) {
             int count2 = 0;
-            for (int i = 2; i < Math.sqrt(n); i++) {
+            for (int i = 2; i <= Math.sqrt(n); i++) {
                 if (n % i == 0) {
                     count2++;
                 }
